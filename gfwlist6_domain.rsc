@@ -1,4 +1,4 @@
-### --- Created at: 2026-03-25 20:54:01 --- ###
+### --- Created at: 2026-04-01 20:59:54 --- ###
 :log info "Starting to update MikroTik v6 GFWLIST domain rules..."
 /ip dns static remove [find comment=Gfwlist]
 /ip dns static
@@ -2903,7 +2903,6 @@
 :do { add regexp="(\\.|^)rixcloud\\.us\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
 :do { add regexp="(\\.|^)rlwlw\\.com\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
 :do { add regexp="(\\.|^)rmbl\\.ws\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
-:do { add regexp="(\\.|^)rmimg\\.com\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
 :do { add regexp="(\\.|^)robustnessiskey\\.com\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
 :do { add regexp="(\\.|^)rocket-inc\\.net\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
 :do { add regexp="(\\.|^)rocket\\.chat\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
@@ -3925,6 +3924,7 @@
 :do { add regexp="(\\.|^)xn--9pr62r24a\\.com\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
 :do { add regexp="(\\.|^)xn--czq75pvv1aj5c\\.org\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
 :do { add regexp="(\\.|^)xn--i2ru8q2qg\\.com\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
+:do { add regexp="(\\.|^)xn--kcrv3utim32hx9f6qe\\.com\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
 :do { add regexp="(\\.|^)xn--ngstr-lra8j\\.com\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
 :do { add regexp="(\\.|^)xn--noss43i\\.com\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
 :do { add regexp="(\\.|^)xn--oiq\\.cc\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
