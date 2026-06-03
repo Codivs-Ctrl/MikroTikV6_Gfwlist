@@ -1,4 +1,4 @@
-### --- Created at: 2026-05-27 20:54:44 --- ###
+### --- Created at: 2026-06-03 21:17:46 --- ###
 :log info "Starting to update MikroTik v6 GFWLIST domain rules..."
 /ip dns static remove [find comment=Gfwlist]
 /ip dns static
@@ -258,6 +258,7 @@
 :do { add regexp="(\\.|^)artstation\\.com\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
 :do { add regexp="(\\.|^)arvanstorage\\.ir\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
 :do { add regexp="(\\.|^)arweave\\.org\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
+:do { add regexp="(\\.|^)as\\.mr\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
 :do { add regexp="(\\.|^)asacp\\.org\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
 :do { add regexp="(\\.|^)asiaharvest\\.org\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
 :do { add regexp="(\\.|^)asianage\\.com\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
@@ -316,6 +317,7 @@
 :do { add regexp="(\\.|^)bangdream\\.space\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
 :do { add regexp="(\\.|^)bangkokpost\\.com\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
 :do { add regexp="(\\.|^)bangumi\\.moe\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
+:do { add regexp="(\\.|^)bangumi\\.tv\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
 :do { add regexp="(\\.|^)bangyoulater\\.com\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
 :do { add regexp="(\\.|^)bankmobilevibe\\.com\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
 :do { add regexp="(\\.|^)bannedbook\\.org\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
@@ -362,6 +364,7 @@
 :do { add regexp="(\\.|^)betvictor\\.com\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
 :do { add regexp="(\\.|^)bfnn\\.org\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
 :do { add regexp="(\\.|^)bfsh\\.hk\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
+:do { add regexp="(\\.|^)bgm\\.tv\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
 :do { add regexp="(\\.|^)bgme\\.me\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
 :do { add regexp="(\\.|^)bgvpn\\.com\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
 :do { add regexp="(\\.|^)biblesforamerica\\.org\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
@@ -603,6 +606,7 @@
 :do { add regexp="(\\.|^)chenpokongvip\\.com\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
 :do { add regexp="(\\.|^)cherrysave\\.com\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
 :do { add regexp="(\\.|^)chhongbi\\.org\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
+:do { add regexp="(\\.|^)chii\\.in\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
 :do { add regexp="(\\.|^)china-mmm\\.net\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
 :do { add regexp="(\\.|^)china-review\\.com\\.ua\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
 :do { add regexp="(\\.|^)china-week\\.com\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
@@ -700,7 +704,6 @@
 :do { add regexp="(\\.|^)cn-proxy\\.com\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
 :do { add regexp="(\\.|^)cn\\.com\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
 :do { add regexp="(\\.|^)cna\\.com\\.tw\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
-:do { add regexp="(\\.|^)cnbc\\.com\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
 :do { add regexp="(\\.|^)cnbeta\\.com\\.tw\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
 :do { add regexp="(\\.|^)cnd\\.org\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
 :do { add regexp="(\\.|^)cnpolitics\\.org\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
@@ -1285,6 +1288,7 @@
 :do { add regexp="(\\.|^)geek-art\\.net\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
 :do { add regexp="(\\.|^)gekikame\\.com\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
 :do { add regexp="(\\.|^)gelbooru\\.com\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
+:do { add regexp="(\\.|^)gencraft\\.com\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
 :do { add regexp="(\\.|^)generated\\.photos\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
 :do { add regexp="(\\.|^)genius\\.com\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
 :do { add regexp="(\\.|^)geph\\.io\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
@@ -1701,6 +1705,7 @@
 :do { add regexp="(\\.|^)hicairo\\.com\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
 :do { add regexp="(\\.|^)hiccears\\.com\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
 :do { add regexp="(\\.|^)hidden-advent\\.org\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
+:do { add regexp="(\\.|^)hiddify\\.com\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
 :do { add regexp="(\\.|^)hide\\.me\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
 :do { add regexp="(\\.|^)hideipvpn\\.com\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
 :do { add regexp="(\\.|^)hideman\\.net\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
@@ -3123,7 +3128,6 @@
 :do { add regexp="(\\.|^)socks-proxy\\.net\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
 :do { add regexp="(\\.|^)sockslist\\.net\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
 :do { add regexp="(\\.|^)socrec\\.org\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
-:do { add regexp="(\\.|^)softether-download\\.com\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
 :do { add regexp="(\\.|^)softether\\.co\\.jp\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
 :do { add regexp="(\\.|^)softether\\.org\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
 :do { add regexp="(\\.|^)softfamous\\.com\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
@@ -3694,6 +3698,7 @@
 :do { add regexp="(\\.|^)vatn\\.org\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
 :do { add regexp="(\\.|^)vcf-online\\.org\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
 :do { add regexp="(\\.|^)vcfbuilder\\.org\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
+:do { add regexp="(\\.|^)veed\\.io\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
 :do { add regexp="(\\.|^)vegasred\\.com\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
 :do { add regexp="(\\.|^)venetianmacao\\.com\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
 :do { add regexp="(\\.|^)ventureswell\\.com\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
@@ -4030,7 +4035,6 @@
 :do { add regexp="(\\.|^)yfsp\\.tv\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
 :do { add regexp="(\\.|^)yhcw\\.net\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
 :do { add regexp="(\\.|^)yibaochina\\.com\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
-:do { add regexp="(\\.|^)yidio\\.com\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
 :do { add regexp="(\\.|^)yigeni\\.com\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
 :do { add regexp="(\\.|^)yimg\\.com\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
 :do { add regexp="(\\.|^)yipub\\.com\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
