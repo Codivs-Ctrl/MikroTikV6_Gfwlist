@@ -1,4 +1,4 @@
-### --- Created at: 2026-06-03 21:17:46 --- ###
+### --- Created at: 2026-06-10 21:04:51 --- ###
 :log info "Starting to update MikroTik v6 GFWLIST domain rules..."
 /ip dns static remove [find comment=Gfwlist]
 /ip dns static
@@ -2632,7 +2632,6 @@
 :do { add regexp="(\\.|^)pacom\\.mil\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
 :do { add regexp="(\\.|^)pacopacomama\\.com\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
 :do { add regexp="(\\.|^)page\\.link\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
-:do { add regexp="(\\.|^)pages\\.dev\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
 :do { add regexp="(\\.|^)paimon\\.moe\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
 :do { add regexp="(\\.|^)palworldgame\\.com\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
 :do { add regexp="(\\.|^)pancakeswap\\.finance\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
@@ -3251,6 +3250,7 @@
 :do { add regexp="(\\.|^)surfeasy\\.com\\.au\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
 :do { add regexp="(\\.|^)surfshark\\.com\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
 :do { add regexp="(\\.|^)surrenderat20\\.net\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
+:do { add regexp="(\\.|^)suyingtv\\.com\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
 :do { add regexp="(\\.|^)swagbucks\\.com\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
 :do { add regexp="(\\.|^)swapspace\\.co\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
 :do { add regexp="(\\.|^)swissinfo\\.ch\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
@@ -3926,6 +3926,7 @@
 :do { add regexp="(\\.|^)wowporn\\.com\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
 :do { add regexp="(\\.|^)woyaolian\\.org\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
 :do { add regexp="(\\.|^)wp\\.com\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
+:do { add regexp="(\\.|^)wplace\\.live\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
 :do { add regexp="(\\.|^)wpoforum\\.com\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
 :do { add regexp="(\\.|^)writesonic\\.com\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
 :do { add regexp="(\\.|^)wsj\\.com\$" comment=Gfwlist type=FWD forward-to=8.8.8.8 } on-error={}
